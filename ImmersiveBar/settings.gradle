@@ -1,1 +1,1 @@
-include  ':immersionLib'
+include ':app', ':immersionLib'

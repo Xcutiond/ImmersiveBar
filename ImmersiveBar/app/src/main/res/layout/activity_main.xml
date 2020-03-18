@@ -7,20 +7,20 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/ic_launcher"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher" />
 
-    <com.android.xd.immersionlib.StatusBarHeightView
+    <com.android.xd.immersivelib.StatusBarHeightView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:use_type="use_padding_top" />
 
     <TextView
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="Hello World!" />
 
 </RelativeLayout>

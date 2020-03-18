@@ -1,4 +1,4 @@
-package com.android.xd.immersionlib;
+package com.android.xd.immersivelib;
 
 import android.os.Build;
 import android.text.TextUtils;

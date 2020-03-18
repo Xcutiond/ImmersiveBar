@@ -1,4 +1,4 @@
-package com.android.xd.immersionlib;
+package com.android.xd.immersivelib;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -10,7 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+
 import androidx.annotation.IntDef;
+
 import com.gyf.barlibrary.BarHide;
 import com.gyf.barlibrary.ImmersionBar;
 

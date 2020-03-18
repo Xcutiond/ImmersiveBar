@@ -1,11 +1,12 @@
-package com.android.xd.app;
+package com.android.xd.immersivebar;
 
 import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
-import com.android.xd.immersionlib.ImmersionUtil;
+
+import com.android.xd.immersivelib.ImmersionUtil;
 
 public class MainActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,5 +17,4 @@ public class MainActivity extends AppCompatActivity {
 //        ImmersionUtil.setFullScreen(this);
 //        ImmersionUtil.setStatusBarColor(this,R.color.colorPrimaryDark);
     }
-
 }

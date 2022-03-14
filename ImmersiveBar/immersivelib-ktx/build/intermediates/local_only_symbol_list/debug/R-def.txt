@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+attr? use_type
+id use_height
+id use_padding_top
+styleable StatusBarHeightView use_type

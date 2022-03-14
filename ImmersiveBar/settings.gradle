@@ -1,3 +1,4 @@
 rootProject.name='ImmersiveBar'
 include ':app'
 include ':immersivelib'
+include ':immersivelib-ktx'

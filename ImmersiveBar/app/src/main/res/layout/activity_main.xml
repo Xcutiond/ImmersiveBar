@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:src="@mipmap/ic_launcher" />
 
-    <com.android.xd.immersivelib.StatusBarHeightView
+    <com.example.immersivelib_ktx.StatusBarHeightView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:use_type="use_padding_top" />

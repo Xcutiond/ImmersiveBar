@@ -39,4 +39,8 @@ dependencies {
     // fragment快速实现（可选）已废弃
     implementation 'com.geyifeng.immersionbar:immersionbar-components:3.2.1'
     implementation 'androidx.annotation:annotation:1.2.0'
+
+    // kotlin
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.20-RC'
+
 }

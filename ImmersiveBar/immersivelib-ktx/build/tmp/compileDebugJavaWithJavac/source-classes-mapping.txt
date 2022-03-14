@@ -1,2 +1,0 @@
-com/example/immersivelib_ktx/BuildConfig.java
- com.example.immersivelib_ktx.BuildConfig

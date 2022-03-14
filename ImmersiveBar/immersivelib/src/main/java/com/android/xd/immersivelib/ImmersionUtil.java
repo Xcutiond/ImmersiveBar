@@ -13,9 +13,6 @@ import android.view.WindowManager;
 
 import androidx.annotation.IntDef;
 
-import com.gyf.barlibrary.BarHide;
-import com.gyf.barlibrary.ImmersionBar;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
@@ -70,20 +67,20 @@ import java.lang.reflect.Method;
  */
 public class ImmersionUtil {
     public static void setTranslucentStatusBar(Activity activity, int statusBarColorResId, boolean isStatusBarDarkMode) {
-        ImmersionBar.with(activity)
-                .transparentStatusBar()
-                .statusBarDarkFont(isStatusBarDarkMode)
-                .statusBarColor(statusBarColorResId)
-//                .navigationBarColor(R.color.color_half_transparent)
-                .fitsSystemWindows(true)//防止状态栏和头部界面重叠
-//                .fullScreen(false)//防止底部界面被导航栏遮挡
-                .init();
+//        ImmersionBar.with(activity)
+//                .transparentStatusBar()
+//                .statusBarDarkFont(isStatusBarDarkMode)
+//                .statusBarColor(statusBarColorResId)
+////                .navigationBarColor(R.color.color_half_transparent)
+//                .fitsSystemWindows(true)//防止状态栏和头部界面重叠
+////                .fullScreen(false)//防止底部界面被导航栏遮挡
+//                .init();
     }
 
     public static void setFullScreen(Activity activity) {
-        ImmersionBar.with(activity)
-                .hideBar(BarHide.FLAG_HIDE_BAR)
-                .init();
+//        ImmersionBar.with(activity)
+//                .hideBar(BarHide.FLAG_HIDE_BAR)
+//                .init();
     }
 
     /**

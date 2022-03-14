@@ -1,6 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.xd.immersivelib" >
-    <application>
+    package="com.android.xd.immersivelib">
+
+    <application
+        android:maxAspectRatio="2.4"
+        android:resizeableActivity="true">
         <!-- 沉浸式状态栏和导航栏 -->
         <meta-data
             android:name="android.max_aspect"
